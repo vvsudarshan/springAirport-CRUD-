@@ -1,0 +1,43 @@
+
+*{
+	background-color:whitesmoke;
+}
+.save-runways-item {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.save-runways-item form {
+    display: flex;
+    flex-direction: column;
+}
+
+.save-runways-item label {
+    margin-bottom: 5px;
+}
+
+.save-runways-item input,
+.save-runways-item select {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.save-runways-item input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.save-runways-item input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.radiobutions{
+	display: inline;
+}
